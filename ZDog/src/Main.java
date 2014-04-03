@@ -19,14 +19,14 @@ public class Main {
 	
 	public static void foo(Dog someDog) {
 		
-	    someDog.setName("Max");     // AAA
-	    System.out.println(someDog.name);//Ausgabe:Max
-	    someDog2= new Dog("Fifi");  // BBB
-	    someDog =someDog2;//Problem ist hier
-	    System.out.println(someDog.name);//Ausgabe:Fifi
-	    someDog.setName("Rowlf");   // CCC	
-	    System.out.println(someDog.name);//Ausgabe:Rowlf
-	    System.out.println(someDog2.name);//Ausgabe:Rowlf
+	    someDog.setName("Max"); 
+	    System.out.println(someDog.name);
+	    someDog2= new Dog("Fifi");  
+	    someDog =someDog2;
+	    System.out.println(someDog.name);
+	    someDog.setName("Rowlf");   
+	    System.out.println(someDog.name);
+	    System.out.println(someDog2.name);
 
 	}
 }
